@@ -33,17 +33,16 @@ public class Main
         
         for(Movie m : mA)
             {
-                m.getName();
+                System.out.println(m.getName());
             }
         for(Movie[] m1 : mB)
             for(Movie n : m1)
             {
-                n.getName();
+                 System.out.println(n.getName());
             }
         for(Movie a : mC)
             {
-                a.getName();
+                System.out.println(a.getName());
             }
     }// END psvm
-        
 } // END class Main
